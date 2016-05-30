@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SRParamSet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP9FA7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_CY_DEBUG_" /Fp"../Debug/SRParamSet.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\SRParamSet\datadef.c"
+"E:\C++Project\1.1 SRStub\SRProject\SRParamSet\SRParameterSet.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP9FA7.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP9FB8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/SRParamSet.pdb" /debug /machine:I386 /out:"Debug/SRParamSet.exe" /pdbtype:sept 
+"\C++Project\1.1 SRStub\SRProject\Debug\datadef.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\SRParameterSet.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP9FB8.tmp"
+<h3>Output Window</h3>
+Compiling...
+datadef.c
+SRParameterSet.c
+Linking...
+<h3>
+--------------------Configuration: DSP - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA600.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"../Debug/DSP.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\DSP\dspMain.c"
+"E:\C++Project\1.1 SRStub\SRProject\DSP\fft.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA600.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA601.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/DSP.pdb" /debug /machine:I386 /out:"Debug/DSP.exe" /pdbtype:sept 
+"\C++Project\1.1 SRStub\SRProject\Debug\dspMain.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\fft.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA601.tmp"
+<h3>Output Window</h3>
+Compiling...
+dspMain.c
+fft.c
+e:\c++project\1.1 srstub\srproject\dsp\fft.c(65) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\c++project\1.1 srstub\srproject\dsp\fft.c(66) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+Linking...
+<h3>
+--------------------Configuration: FeatureExtraction - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA92D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"../Debug/" /Fp"../Debug/FeatureExtraction.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\FeatureExtraction\DeltaFeature.c"
+"E:\C++Project\1.1 SRStub\SRProject\FeatureExtraction\FeatureExtraction.c"
+"E:\C++Project\1.1 SRStub\SRProject\FeatureExtraction\FeatureExtractionMain.c"
+"E:\C++Project\1.1 SRStub\SRProject\FeatureExtraction\FeatureTransform.c"
+"E:\C++Project\1.1 SRStub\SRProject\FeatureExtraction\MFCC.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA92D.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA92E.tmp" with contents
+[
+../Debug/datadef.obj ../Debug/fft.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/FeatureExtraction.pdb" /debug /machine:I386 /out:"Debug/FeatureExtraction.exe" /pdbtype:sept 
+"\C++Project\1.1 SRStub\SRProject\Debug\DeltaFeature.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\FeatureExtraction.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\FeatureExtractionMain.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\FeatureTransform.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\MFCC.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA92E.tmp"
+<h3>Output Window</h3>
+Compiling...
+DeltaFeature.c
+FeatureExtraction.c
+FeatureExtractionMain.c
+FeatureTransform.c
+e:\c++project\1.1 srstub\srproject\featureextraction\featuretransform.c(61) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+MFCC.c
+e:\c++project\1.1 srstub\srproject\featureextraction\mfcc.c(278) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\c++project\1.1 srstub\srproject\featureextraction\mfcc.c(304) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+e:\c++project\1.1 srstub\srproject\featureextraction\mfcc.c(311) : warning C4244: 'return' : conversion from 'double ' to 'float ', possible loss of data
+e:\c++project\1.1 srstub\srproject\featureextraction\mfcc.c(359) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+e:\c++project\1.1 srstub\srproject\featureextraction\mfcc.c(372) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+FeatureExtraction.exe - 0 error(s), 8 warning(s)
+</pre>
+</body>
+</html>

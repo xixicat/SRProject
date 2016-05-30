@@ -1,0 +1,164 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "DSP"=".\DSP\DSP.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SRParamSet
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "FeatureExtraction"=".\FeatureExtraction\FeatureExtraction.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SRParamSet
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DSP
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "LoadNlpGmm"=".\LoadNlpGmm\LoadNlpGmm.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "NlpGmmModelEval"=".\NlpGmmModelEval\NlpGmmModelEval.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SRParamSet
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "NonLinerPartition"=".\NonLinerPartition\NonLinerPartition.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SRParamSet
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "RealTimeFrontEnd"=".\RealTimeFrontEnd\RealTimeFrontEnd.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SRParamSet
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FeatureExtraction
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SRControl"=".\SRControl\SRControl.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SpeechCollection
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RealTimeFrontEnd
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SRParamSet
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name LoadNlpGmm
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name NlpGmmModelEval
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name NonLinerPartition
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SRParamSet"=".\SRParamSet\SRParamSet.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SpeechCollection"=".\SpeechCollection\SpeechCollection.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

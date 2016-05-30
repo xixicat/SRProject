@@ -1,0 +1,231 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SRParamSet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D01.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_CY_DEBUG_" /Fp"../Debug/SRParamSet.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\SRParamSet\datadef.c"
+"E:\C++Project\1.1 SRStub\SRProject\SRParamSet\SRParameterSet.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D01.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D02.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/SRParamSet.pdb" /debug /machine:I386 /out:"Debug/SRParamSet.exe" /pdbtype:sept 
+"\C++Project\1.1 SRStub\SRProject\Debug\datadef.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\SRParameterSet.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D02.tmp"
+<h3>Output Window</h3>
+Compiling...
+datadef.c
+SRParameterSet.c
+Linking...
+<h3>
+--------------------Configuration: DSP - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3463.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"../Debug/DSP.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\DSP\dspMain.c"
+"E:\C++Project\1.1 SRStub\SRProject\DSP\fft.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3463.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3464.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/DSP.pdb" /debug /machine:I386 /out:"Debug/DSP.exe" /pdbtype:sept 
+"\C++Project\1.1 SRStub\SRProject\Debug\dspMain.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\fft.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3464.tmp"
+<h3>Output Window</h3>
+Compiling...
+dspMain.c
+fft.c
+Linking...
+<h3>
+--------------------Configuration: FeatureExtraction - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP383C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"../Debug/" /Fp"../Debug/FeatureExtraction.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\FeatureExtraction\DeltaFeature.c"
+"E:\C++Project\1.1 SRStub\SRProject\FeatureExtraction\FeatureExtraction.c"
+"E:\C++Project\1.1 SRStub\SRProject\FeatureExtraction\FeatureExtractionMain.c"
+"E:\C++Project\1.1 SRStub\SRProject\FeatureExtraction\FeatureTransform.c"
+"E:\C++Project\1.1 SRStub\SRProject\FeatureExtraction\MFCC.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP383C.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP384C.tmp" with contents
+[
+../Debug/datadef.obj ../Debug/fft.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/FeatureExtraction.pdb" /debug /machine:I386 /out:"Debug/FeatureExtraction.exe" /pdbtype:sept 
+"\C++Project\1.1 SRStub\SRProject\Debug\DeltaFeature.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\FeatureExtraction.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\FeatureExtractionMain.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\FeatureTransform.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\MFCC.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP384C.tmp"
+<h3>Output Window</h3>
+Compiling...
+DeltaFeature.c
+FeatureExtraction.c
+FeatureExtractionMain.c
+FeatureTransform.c
+MFCC.c
+Linking...
+<h3>
+--------------------Configuration: RealTimeFrontEnd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D3D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_CY_DEBUG_" /Fp"../Debug/RealTimeFrontEnd.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\RealTimeFrontEnd\common.c"
+"E:\C++Project\1.1 SRStub\SRProject\RealTimeFrontEnd\dspAIC.c"
+"E:\C++Project\1.1 SRStub\SRProject\RealTimeFrontEnd\main.c"
+"E:\C++Project\1.1 SRStub\SRProject\RealTimeFrontEnd\realtimefrontend.c"
+"E:\C++Project\1.1 SRStub\SRProject\RealTimeFrontEnd\vad.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D3D.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D3E.tmp" with contents
+[
+../Debug/DeltaFeature.obj ../Debug/FeatureTransform.obj ../Debug/fft.obj ../Debug/mfcc.obj ../Debug/FeatureExtraction.obj ../Debug/datadef.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/RealTimeFrontEnd.pdb" /debug /machine:I386 /out:"Debug/RealTimeFrontEnd.exe" /pdbtype:sept 
+"\C++Project\1.1 SRStub\SRProject\Debug\common.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\dspAIC.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\main.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\realtimefrontend.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\vad.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3D3E.tmp"
+<h3>Output Window</h3>
+Compiling...
+common.c
+dspAIC.c
+main.c
+realtimefrontend.c
+vad.c
+Linking...
+<h3>
+--------------------Configuration: LoadNlpGmm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP4125.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"../Debug/LoadNlpGmm.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\LoadNlpGmm\LoadNlpGmm.c"
+"E:\C++Project\1.1 SRStub\SRProject\LoadNlpGmm\loadNlpGmm_main.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP4125.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP4136.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/LoadNlpGmm.pdb" /debug /machine:I386 /out:"Debug/LoadNlpGmm.exe" /pdbtype:sept 
+"\C++Project\1.1 SRStub\SRProject\Debug\LoadNlpGmm.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\loadNlpGmm_main.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP4136.tmp"
+<h3>Output Window</h3>
+Compiling...
+LoadNlpGmm.c
+loadNlpGmm_main.c
+Linking...
+<h3>
+--------------------Configuration: NlpGmmModelEval - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP4424.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"../Debug/NlpGmmModelEval.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\NlpGmmModelEval\nlpGMM_main.c"
+"E:\C++Project\1.1 SRStub\SRProject\NlpGmmModelEval\nlpgmmRecognition.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP4424.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP4434.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/NlpGmmModelEval.pdb" /debug /machine:I386 /out:"Debug/NlpGmmModelEval.exe" /pdbtype:sept 
+"\C++Project\1.1 SRStub\SRProject\Debug\nlpGMM_main.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\nlpgmmRecognition.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP4434.tmp"
+<h3>Output Window</h3>
+Compiling...
+nlpGMM_main.c
+nlpgmmRecognition.c
+Linking...
+<h3>
+--------------------Configuration: NonLinerPartition - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP4657.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"../Debug/" /Fp"../Debug/NonLinerPartition.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\NonLinerPartition\nlp.c"
+"E:\C++Project\1.1 SRStub\SRProject\NonLinerPartition\nlpMain.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP4657.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP4668.tmp" with contents
+[
+../Debug/datadef.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/NonLinerPartition.pdb" /debug /machine:I386 /out:"Debug/NonLinerPartition.exe" /pdbtype:sept 
+"\C++Project\1.1 SRStub\SRProject\Debug\nlp.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\nlpMain.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP4668.tmp"
+<h3>Output Window</h3>
+Compiling...
+nlp.c
+nlpMain.c
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/NonLinerPartition.bsc"  "\C++Project\1.1 SRStub\SRProject\Debug\nlp.sbr" "\C++Project\1.1 SRStub\SRProject\Debug\nlpMain.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+<h3>
+--------------------Configuration: SRControl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/SRControl.res" /d "_DEBUG" "E:\C++Project\1.1 SRStub\SRProject\SRControl\SRControl.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP4927.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_CY_DEBUG_" /FR"Debug/" /Fp"Debug/SRControl.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\SRControl\SRControl.cpp"
+"E:\C++Project\1.1 SRStub\SRProject\SRControl\wrapper.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP4927.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP4928.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_CY_DEBUG_" /FR"Debug/" /Fp"Debug/SRControl.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\C++Project\1.1 SRStub\SRProject\SRControl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP4928.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP4938.tmp" with contents
+[
+../Debug/nlp.obj ../Debug/nlpgmmRecognition.obj ../Debug/LoadNlpGmm.obj ../Debug/DeltaFeature.obj ../Debug/FeatureTransform.obj ../Debug/fft.obj ../Debug/mfcc.obj ../Debug/FeatureExtraction.obj ../Debug/datadef.obj ../Debug/vad.obj ../Debug/common.obj ../Debug/dspAIC.obj ../Debug/realtimefrontend.obj ../Debug/SpeechCollectionDlg.obj ../Debug/Pipe.obj ../Debug/SoundIn.obj ../Debug/SoundOut.obj ../Debug/SoundFile.obj ../Debug/SoundBase.obj ../Debug/Buffer.obj ../Debug/PtrFifo.obj ../Debug/errorprint.obj /nologo /subsystem:console /incremental:yes /pdb:"Debug/SRControl.pdb" /debug /machine:I386 /nodefaultlib:"LIBCD.lib" /out:"Debug/SRControl.exe" /pdbtype:sept 
+".\Debug\SRControl.obj"
+".\Debug\StdAfx.obj"
+".\Debug\wrapper.obj"
+".\Debug\SRControl.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP4938.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+SRControl.cpp
+wrapper.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4098: defaultlib "LIBCMT" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+SRControl.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

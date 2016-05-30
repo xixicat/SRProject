@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FeatureExtraction - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPAFE4.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"../Release/FeatureExtraction.pch" /YX /Fo"../Release/" /Fd"../Release/" /FD /c 
+"E:\C++Project\1.1 SRStub\SRProject\FeatureExtraction\DeltaFeature.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPAFE4.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPAFE5.tmp" with contents
+[
+../Release/datadef.obj ../Release/fft.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/FeatureExtraction.pdb" /machine:I386 /out:"Release/FeatureExtraction.exe" 
+"\C++Project\1.1 SRStub\SRProject\Release\DeltaFeature.obj"
+"\C++Project\1.1 SRStub\SRProject\Release\FeatureExtraction.obj"
+"\C++Project\1.1 SRStub\SRProject\Release\MFCC.obj"
+"\C++Project\1.1 SRStub\SRProject\Release\FeatureExtractionMain.obj"
+"\C++Project\1.1 SRStub\SRProject\Release\FeatureTransform.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPAFE5.tmp"
+<h3>Output Window</h3>
+Compiling...
+DeltaFeature.c
+Linking...
+datadef.obj : error LNK2001: unresolved external symbol _AIC_Close
+Release/FeatureExtraction.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+RealTimeFrontEnd.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NonLinerPartition - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPABC7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"../Debug/" /Fp"../Debug/NonLinerPartition.pch" /YX /Fo"../Debug/" /Fd"../Debug/" /FD /GZ  /c 
+"E:\C++Project\1.1 SRStub\SRProject\NonLinerPartition\nlpMain.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPABC7.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPABD7.tmp" with contents
+[
+../Debug/datadef.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/NonLinerPartition.pdb" /debug /machine:I386 /out:"Debug/NonLinerPartition.exe" /pdbtype:sept 
+"\C++Project\1.1 SRStub\SRProject\Debug\nlp.obj"
+"\C++Project\1.1 SRStub\SRProject\Debug\nlpMain.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPABD7.tmp"
+<h3>Output Window</h3>
+Compiling...
+nlpMain.c
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/NonLinerPartition.bsc"  "\C++Project\1.1 SRStub\SRProject\Debug\nlp.sbr" "\C++Project\1.1 SRStub\SRProject\Debug\nlpMain.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NonLinerPartition.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
